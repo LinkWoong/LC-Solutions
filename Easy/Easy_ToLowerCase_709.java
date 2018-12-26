@@ -16,7 +16,7 @@ package Leetcode;
     Output: "lovely"
  */
 
-public class Easy_ToLowerCase {
+public class Easy_ToLowerCase_709 {
     public static void main(String[] args){
         String s = "Hello";
 

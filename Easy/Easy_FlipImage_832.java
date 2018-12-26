@@ -1,4 +1,8 @@
 package Leetcode;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /*
     Given a binary matrix A, we want to flip the image horizontally, then invert it, and return the resulting image.
 
@@ -27,10 +31,20 @@ package Leetcode;
  */
 public class Easy_FlipImage_832 {
     public static void main(String[] args){
-
+        int[][] test = {{1, 1, 0}, {1, 0, 1}, {0, 0, 1}};
+        int[][] test2 = {{1, 1, 0, 0}, {0, 1, 1, 0}, {0, 0, 0, 1}, {1, 0, 1, 0}};
+        int[][] result = flipAndInvertImage(test2);
+        System.out.println(Arrays.toString(result[3]));
     }
 
-    private static int[][] flipAndInvertImage(int[][] A){
-        
+    private static int[][] flipAndInvertImage(int[][] arr){
+        for(int i = 0; i <= arr.length - 1; i++){
+            for(int j = 0; j <= arr[i].length - 1; j++){
+                int temp = arr[i][j];
+                arr[i][j] = arr[i][arr[i].length - 1 - j];
+                arr[i][arr[i].length - 1 - j] = temp;
+            }
+        }
+        return arr;
     }
 }

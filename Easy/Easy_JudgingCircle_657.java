@@ -31,14 +31,12 @@ import java.util.HashMap;
  */
 public class Easy_JudgingCircle_657 {
     public static void main(String[] args){
-        String test = "RRDD";
-        boolean result = judgeCircle(test);
+        String test = "LLRRDDUUU";
+        boolean result = judgeCircle_v3(test);
         System.out.println(result);
     }
 
-    // 1: sum(moves) % 4 = 0;
-    // 2: sum(U) = sum(D);
-    // 3: sum(L) = sum(R); HashMap存储<K,V> pair
+    // HashMap存储<K,V> pair, time o(n)
     // Runtime: 25 ms, faster than 10.37% of Java online submissions
     private static boolean judgeCircle(String moves){
         HashMap<Character, Integer> hm = new HashMap<>();
@@ -67,4 +65,27 @@ public class Easy_JudgingCircle_657 {
             return false;
         }
     }
+
+    private static boolean judgeCircle_v2(String moves){
+        int[] cnt = new int[128];
+        for(char c : moves.toCharArray()){
+            cnt[c]++;
+        }
+        return cnt['L'] == cnt['R'] && cnt['U'] == cnt['D'];
+    }
+
+    private static boolean judgeCircle_v3(String moves){
+        int x = 0;
+        int y = 0;
+        for(char c : moves.toCharArray()){
+            if(c == 'D') x++;
+            else if(c == 'U') x--;
+            else if(c == 'L') y++;
+            else if(c == 'R') y--;
+        }
+
+        return x== 0 && y == 0;
+    }
+
+
 }

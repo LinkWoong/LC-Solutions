@@ -31,20 +31,34 @@ import java.util.Arrays;
  */
 public class Easy_FlipImage_832 {
     public static void main(String[] args){
-        int[][] test = {{1, 1, 0}, {1, 0, 1}, {0, 0, 1}};
-        int[][] test2 = {{1, 1, 0, 0}, {0, 1, 1, 0}, {0, 0, 0, 1}, {1, 0, 1, 0}};
+        int[][] test = {{1, 1, 0}, {1, 0, 1}, {0, 0, 0}};
+        int[][] test2 = {{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}};
         int[][] result = flipAndInvertImage(test2);
-        System.out.println(Arrays.toString(result[3]));
+        System.out.println(Arrays.toString(result[1]));
     }
 
+    // 基本数组操作, time O(n^2)
+    // Runtime: 5 ms, faster than 52.10% of Java online submissions
     private static int[][] flipAndInvertImage(int[][] arr){
         for(int i = 0; i <= arr.length - 1; i++){
-            for(int j = 0; j <= arr[i].length - 1; j++){
+            for(int j = 0; j <= arr[i].length/2 - 1; j++){
                 int temp = arr[i][j];
                 arr[i][j] = arr[i][arr[i].length - 1 - j];
                 arr[i][arr[i].length - 1 - j] = temp;
             }
         }
+
+        for(int i = 0; i <= arr.length - 1; i++){
+            for(int j = 0; j <= arr[i].length - 1; j++){
+                if(arr[i][j] == 1){
+                    arr[i][j] = 0;
+                }
+                else{
+                    arr[i][j] = 1;
+                }
+            }
+        }
+
         return arr;
     }
 }

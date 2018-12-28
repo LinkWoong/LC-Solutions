@@ -28,18 +28,28 @@ package Leetcode;
     Note: The merging process must start from the root nodes of both trees.
  */
 public class Easy_MergeBinaryTree_617 {
+
     public static void main(String[] args){
 
     }
 
+    // Runtime: 12 ms, faster than 20.05% of Java online submissions
+    // 很普通的递归思路
     private static TreeNode mergeTrees(TreeNode t1, TreeNode t2){
-        
+        if(t1 == null && t2 == null) {return null;}
+        if(t2 != null && t1 == null) {return t2;}
+        if(t2 == null) {return t1;}
+        t1.val += t2.val;
+        t1.left = mergeTrees(t1.left, t2.left);
+        t1.right = mergeTrees(t1.right, t2.right);
+
+        return t1;
     }
 }
 
 class TreeNode{
 
-    int val;
+    public int val;
     TreeNode left;
     TreeNode right;
     TreeNode(int x){

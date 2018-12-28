@@ -24,10 +24,10 @@ package Leetcode;
 public class Easy_PeakIndexArray_852 {
     public static void main(String[] args){
         int[] test = {0, 2, 1, 0, 3, 4, 5};
-        int result = peakIndexInMountainArray(test);
+        int result = peakIndexInMountainArray_v2(test);
         System.out.println(result);
     }
-    
+
     // Runtime: 4 ms, faster than 6.92% of Java online submissions
     public static int peakIndexInMountainArray(int[] arr){
         int result = 0;
@@ -39,5 +39,19 @@ public class Easy_PeakIndexArray_852 {
             }
         }
         return idx;
+    }
+
+    // 只操作index, runtime = 4ms
+    private static int peakIndexInMountainArray_v2(int[] A){
+        int start = 0 , end = A.length - 1;
+        while ( start < end ) {
+            int mid = start + ( end - start) / 2;
+            if ( A[mid] > A[mid + 1]) {
+                end = mid;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return start;
     }
 }

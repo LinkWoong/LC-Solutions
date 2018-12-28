@@ -1,4 +1,7 @@
 package Leetcode;
+
+import apple.laf.JRSUIUtils.Tree;
+
 /*
     Given two binary trees and imagine that when you put one of them to cover the other,
     some nodes of the two trees are overlapped while the others are not.
@@ -44,6 +47,17 @@ public class Easy_MergeBinaryTree_617 {
         t1.right = mergeTrees(t1.right, t2.right);
 
         return t1;
+    }
+    // Runtime: 8ms, a simpler logic
+    private static TreeNode mergeTrees_v2(TreeNode t1, TreeNode t2){
+        if(t1 == null || t2 == null){
+            return t1 == null ? t2 : t1;
+        }else{
+            t1.val += t2.val;
+            t1.left = mergeTrees_v2(t1.left, t2.left);
+            t1.right = mergeTrees_v2(t1.right, t2.right);
+            return t1;
+        }
     }
 }
 

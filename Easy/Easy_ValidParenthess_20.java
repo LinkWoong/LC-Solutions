@@ -35,7 +35,7 @@ import java.util.Stack;
 public class Easy_ValidParenthess_20 {
     public static void main(String[] args){
         // System.out.println("Ass");
-        boolean result = isValid("(])");
+        boolean result = isValid("([]            )");
         System.out.println(result);
     }
     // Runtime: 9 ms, faster than 19.40% of Java online submissions
@@ -62,5 +62,24 @@ public class Easy_ValidParenthess_20 {
             }
         }
         return st.isEmpty();
+    }
+
+    // Runtime: 1 ms, indexing
+    public static boolean isValid_v2(String s){
+        char[] stack = new char[s.length() + 1];
+        int top = 1;
+
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '[' || c == '{') {
+                stack[top++] = c;
+            } else if (c == ')' && stack[--top] != '(') {
+                return false;
+            } else if (c == ']' && stack[--top] != '[') {
+                return false;
+            } else if (c == '}' && stack[--top] != '{') {
+                return false;
+            }
+        }
+        return top == 1;
     }
 }

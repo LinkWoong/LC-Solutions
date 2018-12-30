@@ -29,8 +29,18 @@ public class Easy_MiddleofLinkedList_876 {
 
     }
 
+    // Runtime: 1 ms, faster than 73.56% of Java online submissions
+    // 双指针
     public static ListNode middleNode(ListNode head) {
+        ListNode p1 = head;
+        ListNode p2 = head;
 
+        while(p1 != null && p1.next != null){
+            p1 = p1.next.next;
+            p2 = p2.next;
+        }
+
+        return p2;
     }
 }
 

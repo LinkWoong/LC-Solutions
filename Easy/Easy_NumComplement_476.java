@@ -28,8 +28,23 @@ public class Easy_NumComplement_476 {
         System.out.println(result);
     }
 
+    // Runtime: 9 ms, faster than 24.81% of Java online submissions
+    // bit manipulation
     public static int findComplement(int num){
         int bits = (int) (Math.floor(Math.log(num) / Math.log(2))) + 1;
         return ((1 << bits) - 1) ^ num;
+    }
+
+    public static int findComplement_v2(int num){
+        int complementNumber = 0;
+        int multiplair = 1;
+        while(num > 0) {
+            if(num % 2 == 0) {
+                complementNumber += 1*multiplair;
+            }
+            num = num/2;
+            multiplair = multiplair*2;
+        }
+        return complementNumber;
     }
 }

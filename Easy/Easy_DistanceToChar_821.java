@@ -1,5 +1,7 @@
 package Leetcode;
 
+import org.omg.CORBA.INTERNAL;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -44,5 +46,32 @@ public class Easy_DistanceToChar_821 {
             res[i] = Collections.min(temp);
         }
         return res;
+    }
+
+    // 双向搜索
+    // Runtime: 6 ms, faster than 59.49% of Java online submissions
+    public static int[] shortestToChar_v2(String S, char C){
+        int[] res = new int[S.length()];
+
+        if(S == null || S.length() == 0) return res;
+        char[] c = S.toCharArray();
+
+        int prev = -1;
+        for(int i = 0; i < c.length; i++) {
+            if(c[i] == C) {
+                prev = i;
+            }
+            res[i] = prev == -1 ? Integer.MAX_VALUE : i - prev;
+        }
+
+        prev = Integer.MAX_VALUE;
+        for(int i = c.length-1; i >= 0; i--) {
+            if(c[i] == C) {
+                prev = i;
+            }
+            res[i] = Math.min(res[i], prev - i);
+        }
+        return res;
+
     }
 }

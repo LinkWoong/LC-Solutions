@@ -20,6 +20,7 @@
 语言不限，各位可以选择自己较为熟悉的语言（当然不同语言写起来复杂程度不同，比如Python很好用的list comprehension），重点是学会各类数据结构和常用算法（对于转专业选手:D）和尽快熟悉大厂面试题。  
 * **文件名**：请大家按照*难度_题目_编号_姓名.language*的格式来命名文件。例如 
 > Easy_MergeBinaryTree_617_ASS.java
+（大家如果见到文件名没有名字的代码，那就是repo作者wch的:D）
 * **文件位置**：大家可以选择上传到各个topic，例如ReverseString系列就传到String目录下；也可以按照难度来上传，例如Easy开头的就传到Easy里面。
 * **Issues**：哪些题目自己Google后无法解决可以新开一个issue，大家一起讨论。
 * **版本控制**：大家直接传到master branch就好，或者自己想开一个new branch也可以

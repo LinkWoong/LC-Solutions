@@ -13,6 +13,7 @@ package Leetcode;
  */
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class Easy_LeafSimilarTrees_872 {
@@ -57,6 +58,29 @@ public class Easy_LeafSimilarTrees_872 {
             }
         }
         return res1.equals(res2);
+    }
+
+    public static boolean leftSimilar_v2(TreeNode root1, TreeNode root2){
+        ArrayList<Integer> res1 = new ArrayList<>();
+        ArrayList<Integer> res2 = new ArrayList<>();
+        findLeaves(root1, res1);
+        findLeaves(root2, res2);
+
+        return res1.equals(res2);
+    }
+
+    public static void findLeaves(TreeNode root, List<Integer> values){
+        if(root == null)
+            return;
+        if(root.left == null && root.right == null){
+            values.add(root.val);
+            return;
+        }
+
+        findLeaves(root.left, values);
+        findLeaves(root.right, values);
+
+        return;
     }
 }
 

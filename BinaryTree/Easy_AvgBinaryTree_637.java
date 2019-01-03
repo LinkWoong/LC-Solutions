@@ -26,6 +26,7 @@ import java.util.Queue;
 public class Easy_AvgBinaryTree_637 {
 
     // 层序遍历。遍历每一层时记录下节点个数和值即可
+    // BFS
     public List<Double> averageOfLevels(TreeNode root) {
         if(root == null)
             return new ArrayList<>();

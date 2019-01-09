@@ -72,4 +72,16 @@ public class Easy_UncommonWords_884 {
             }
         }
     }
+
+    // 更简洁的办法：A + " " + B组合起来再处理。。我怎么没想到feels like an idiot
+    public String[] uncommonFromSentences_v2(String A, String B) {
+        Map<String, Integer> count = new HashMap<>();
+        for (String w : (A + " " + B).split(" "))
+            count.put(w, count.getOrDefault(w, 0) + 1);
+        ArrayList<String> res = new ArrayList<>();
+        for (String w : count.keySet())
+            if (count.get(w) == 1)
+                res.add(w);
+        return res.toArray(new String[0]);
+    }
 }

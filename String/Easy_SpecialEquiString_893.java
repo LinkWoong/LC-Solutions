@@ -1,4 +1,9 @@
 package Leetcode;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 /*
     You are given an array A of strings.
     Two strings S and T are special-equivalent if after any number of moves, S == T.
@@ -39,12 +44,29 @@ package Leetcode;
 public class Easy_SpecialEquiString_893 {
 
     public static void main(String[] args){
-
-
+        String[] A = {"aa", "bb", "ab", "ba"};
+        int res = numSpecialEquivGroups(A);
+        System.out.println(res);
     }
 
+    // 创造每一个str的映射，再将映射结果存在set中。time o(n2)
     public static int numSpecialEquivGroups(String[] A) {
+        Set<String> set = new HashSet<>();
+        for(String s: A){
+            int[] odd = new int[26];
+            int[] even = new int[26];
+            for(int i = 0; i < s.length(); i++){
+                if(i % 2 ==0)
+                    even[s.charAt(i) - 'a']++;
+                else
+                    odd[s.charAt(i) - 'a']++;
+            }
 
+            String res = Arrays.toString(odd) + Arrays.toString(even);
+            set.add(res);
+        }
+
+        return set.size();
     }
-    
+
 }

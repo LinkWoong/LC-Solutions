@@ -8,10 +8,11 @@
 * @MAGI003769
 * @Gavinwxy
 * @Chetyh
+* @Forest1995
 * @Chenhui Wang
 
 ## How to
-各类算法题已经按照topic创建好了各自的文件夹(thanks @lmy1108 for his contribution)，大家可以选择：
+各类算法题已经按照topic创建好了各自的文件夹(thanks **@lmy1108** for his contribution)，大家可以选择：
 * 直接在对应的目录下选择*upload files*直接从本地上传代码；
 * git（关于如何clone一个repo到本地修改，并远程提交请见[这里](https://help.github.com/articles/fork-a-repo/)) 
 **注意**：Please keep the formatting(codes, filenames etc.) correct and clean
@@ -31,5 +32,6 @@
 ```Java
 public void add(int index, E e)
 ```
-通过索引add一个E类型的元素（这里使用了泛型），会导致该index以后的元素全部挪动一位（时间复杂度o(n/2)的大头就是从这里来的），并且为了追求高效还涉及到了扩/缩容。数组的优缺点一目了然。
+通过索引add一个E类型的元素（这里使用了泛型），会导致该index以后的元素全部挪动一位（时间复杂度o(n/2)的大头就是从这里来的），并且为了追求高效还涉及到了扩/缩容。
+
 *道阻且长，希望大家通过刷题+运气拿到不错的offer，祝大家好运*

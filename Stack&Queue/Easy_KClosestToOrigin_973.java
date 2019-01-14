@@ -33,6 +33,11 @@ import java.util.*;
 
  */
 public class Easy_KClosestToOrigin_973 {
+
+    // 思路：利用优先队列和自己实现的比较器来进行distance的区分。优先队列设置为是distance小的优先级高，和题目描述保持一致
+    // 遍历每个subarray, 计算其distance^2再放到HashMap<Integer[], Integer>中。
+    // 对于HashMap中的每个键，如果优先队列未满（即size < K）就放入该键和对应的distance（通过new了一个对象来实现的）
+    // 如果满了，就比较最先入队的元素distance和目前元素的distance大小。如果目前更小则替换之。
     private static class distance implements Comparable<distance>{
         int[] num;
         int d;

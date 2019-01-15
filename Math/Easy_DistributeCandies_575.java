@@ -37,6 +37,7 @@ public class Easy_DistributeCandies_575 {
     }
 
     // 思路：先用Map将每个candy和其count作为kv pair，再返回Map大小和candy长度/2其中较小的一个
+    // 因为题目已经保证arr.length为偶数，所以worst case为返回数组的一半。
     public static int distributeCandies(int[] candies) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int num: candies){

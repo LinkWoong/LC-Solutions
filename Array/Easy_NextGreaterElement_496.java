@@ -33,7 +33,7 @@ import java.util.List;
 public class Easy_NextGreaterElement_496 {
 
     // 思路：题目描述有歧义，corresponding places指的不是index，而是value对应的position。例如[4, 1, 2]中的4对应[1, 3, 4, 2]中的[4, 2]
-    // 先用一个index记录所有nums1 value在nums2对应的index。再
+    // 先用一个index记录所有nums1 value在nums2对应的index，再从该位置开始向后查找，找到一个即跳过本次循环
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         List<Integer> res = new ArrayList<>();
         int n = nums1.length;

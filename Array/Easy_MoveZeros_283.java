@@ -19,13 +19,8 @@ import java.util.List;
 */
 public class Easy_MoveZeros_283 {
 
-    public static void main(String[] args){
-        int[] nums = {0, 0, 1};
-        moveZeroes(nums);
-        System.out.println(Arrays.toString(nums));
-    }
-
-    public static void moveZeroes(int[] nums) {
+    // 思路：先把non-zero和zero的个数记录下来，再把0append到新数组中去
+    public void moveZeroes(int[] nums) {
         int n = nums.length;
         List<Integer> list = new ArrayList<>();
         for (int num : nums) {

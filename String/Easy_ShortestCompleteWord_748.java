@@ -34,14 +34,12 @@ import java.util.Map;
     Every words[i] will consist of lowercase letters, and have length in range [1, 15].
  */
 public class Easy_ShortestCompleteWord_748 {
-    public static void main(String[] args){
-        String plate = "H504939";
-        String[] words = {"bit","someone","those","line","option","else","play","fine","computer","half"};
-        String res = shortestCompletingWord(plate, words);
-        System.out.println(res);
-    }
 
-    public static String shortestCompletingWord(String licensePlate, String[] words) {
+    //思路：这题我做的比较麻烦，首先用正则把licensePlate提取并toLowerCase，再遍历每个str。
+    // 对于每个str，看每个licensePlate的char是否在里面，如果不在跳过这个str；否则建立一个counter记录匹配到的字符个数，并且把匹配到的字符删去（利用substring）
+    // 如果counter记录的数量和licensePlate.length()一样说明全部匹配到，再把这个str放到list中去。
+    // 对于所有匹配到的str，比较其length，返回length最小的结果
+    public String shortestCompletingWord(String licensePlate, String[] words) {
         String res = licensePlate.replaceAll("[0-9\\s]+", "").toLowerCase();
         List<String> list = new ArrayList<>();
         for(String str: words){

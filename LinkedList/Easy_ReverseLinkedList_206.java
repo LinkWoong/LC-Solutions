@@ -15,7 +15,7 @@ import java.util.Queue;
     A linked list can be reversed either iteratively or recursively. Could you implement both?
  */
 public class Easy_ReverseLinkedList_206 {
-    // 思路：基本功
+    // 思路：基本功，iterative解法
     public ListNode reverseList(ListNode head) {
         if(head == null)
             return null;
@@ -31,4 +31,30 @@ public class Easy_ReverseLinkedList_206 {
         }
         return head;
     }
+
+    // iterative解法v2
+    public ListNode reverseList_v2(ListNode head){
+        ListNode newHead = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = newHead;
+            newHead = head;
+            head = next;
+        }
+        return newHead;
+    }
+
+    // recursive解法
+    public ListNode reverseList_recursive(ListNode head) {
+        return helper(head, null);
+    }
+
+    private ListNode helper(ListNode head, ListNode newHead){
+        if(head == null)
+            return newHead;
+        ListNode next = head.next;
+        head.next = newHead;
+        return helper(next, head);
+    }
+
 }

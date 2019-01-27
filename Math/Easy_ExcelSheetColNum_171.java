@@ -28,6 +28,9 @@ import java.util.Arrays;
     Output: 701
  */
 public class Easy_ExcelSheetColNum_171 {
+    // 思路：先创立一个映射关系A->1这样，然后再计算pow(26, 数位)即可。
+    // 例如str.length()为3，则第一个是百位，pow(26, 2)再乘以字母对应的val即可，最后再累加起来
+    // Runtime: 1 ms, faster than 100.00% of Java online submissions
     public int titleToNumber(String s) {
         String dict = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int[] map = new int[dict.length()];

@@ -25,4 +25,22 @@ public class Easy_ReverseString_344 {
         }
         return new String(res);
     }
+    // Adding o(1) approach
+    public void reverseString(char[] s) {
+        helper(0, s.length - 1, s);
+    }
+
+    private void helper(int begin, int end, char[] s){
+        if(begin >= end)
+            return;
+        swap(begin, end, s);
+        // System.out.println(Arrays.toString(s));
+        helper(begin + 1, end - 1, s);
+    }
+
+    private void swap(int index1, int index2, char[] s){
+        char temp = s[index1];
+        s[index1] = s[index2];
+        s[index2] = temp;
+    }
 }

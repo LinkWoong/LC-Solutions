@@ -1,6 +1,8 @@
 package Leetcode;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 
 /*
     Given a non-empty array of integers, every element appears twice except for one. Find that single one.
@@ -21,11 +23,11 @@ import java.util.HashMap;
 public class Easy_SingleNumber_136 {
     public static void main(String[] args){
         int[] nums = {4, 1, 2, 1, 2};
-        int res = singleNumber(nums);
+        int res = singleNumber_v3(nums);
         System.out.println(res);
     }
 
-    // HashMap计算每个entry的数量即可
+    // 思路1：HashMap计算每个entry的数量即可
     // Runtime: 22 ms, faster than 9.88% of Java online submissions
     public static int singleNumber(int[] nums){
         HashMap<Integer, Integer> hm = new HashMap<>();
@@ -47,5 +49,25 @@ public class Easy_SingleNumber_136 {
                 res = i;
         }
         return res;
+    }
+
+    // 思路2：两个相同的数字做XOR结果不变，可以利用这一点
+    // 将res与每个元素做XOR，返回res
+    public static int singleNumber_v2(int[] nums){
+        int res = 0;
+        for (int num : nums) {
+            res ^= num;
+        }
+        return res;
+    }
+
+    // 思路3：利用哈希表
+    public static int singleNumber_v3(int[] nums){
+        HashSet<Integer> set = new HashSet<>();
+        for(int i: nums){
+            if(!set.add(i))
+                set.remove(i);
+        }
+        return set.iterator().next();
     }
 }

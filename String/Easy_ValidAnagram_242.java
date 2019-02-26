@@ -41,4 +41,23 @@ public class Easy_ValidAnagram_242 {
         }
         return true;
     }
+
+    // 思路2：计算s和t的每个字符在26个英文字母中的出现次数，再匹配是否相等即可
+    // Runtime: 3 ms, faster than 88.41% of Java online submissions for Valid Anagram.
+    public boolean isAnagram_v2(String s, String t){
+        if(s.length() != t.length())
+            return false;
+        int[] smap = new int[26];
+        int[] tmap = new int[26];
+        for(int i = 0; i < s.length(); i++){
+            smap[s.charAt(i) - 'a']++;
+            tmap[t.charAt(i) - 'a']++;
+        }
+
+        for(int i = 0; i < smap.length; i++){
+            if(smap[i] != tmap[i])
+                return false;
+        }
+        return true;
+    }
 }

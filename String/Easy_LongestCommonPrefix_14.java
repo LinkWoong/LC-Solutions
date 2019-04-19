@@ -32,12 +32,7 @@ public class Easy_LongestCommonPrefix_14 {
             return "";
         else if(strs.length == 1)
             return strs[0];
-        Comparator<String> cmp = new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.length() - o2.length();
-            }
-        };
+        Comparator<String> cmp = Comparator.comparingInt(String::length);
         Arrays.sort(strs, cmp);
         StringBuilder res = new StringBuilder();
         boolean contains = false;

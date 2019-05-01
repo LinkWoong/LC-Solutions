@@ -1,8 +1,6 @@
 package Leetcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /*
     You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2.
@@ -58,5 +56,26 @@ public class Easy_NextGreaterElement_496 {
         for(int i = 0; i < n; i++)
             index[i] = res.get(i);
         return index;
+    }
+    // 思路2：把nums2所有元素和其index存到HashMap里，再对nums2中index > map.get(i)
+    // 的元素进行对比，如果有大的就记录下来跳出本次循环，否则-1。nothing special
+    public int[] nextGreaterElement_v2(int[] nums1, int[] nums2){
+        Map<Integer, Integer> map = new HashMap<>();
+        int[] res = new int[nums1.length];
+        for(int i = 0; i < nums2.length; i++){
+            map.put(nums2[i], i);
+        }
+        for(int i = 0; i < nums1.length; i++){
+            int index = map.get(nums1[i]);
+            for(int j = index; j < nums2.length; j++){
+                if(nums2[j] > nums1[i]){
+                    res[i] = nums2[j];
+                    break;
+                } else{
+                    res[i] = -1;
+                }
+            }
+        }
+        return res;
     }
 }

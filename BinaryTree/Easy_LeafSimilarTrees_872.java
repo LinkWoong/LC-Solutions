@@ -17,13 +17,53 @@ import java.util.List;
 import java.util.Stack;
 
 public class Easy_LeafSimilarTrees_872 {
-    public static void main(String[] args){
+    // 一种全新的得到从左往右的根节点值的方法
+    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+        if(root1 == root2){
+            return true;
+        }
+        if(root1 == null || root2 == null){
+            return false;
+        }
 
+        Stack<TreeNode> s1 = new Stack<>();
+        Stack<TreeNode> s2 = new Stack<>();
+        s1.push(root1);
+        s2.push(root2);
+
+        while(!s1.isEmpty() || !s2.isEmpty()){
+            TreeNode cur1 = s1.pop();
+            while(cur1.left != null || cur1.right != null){
+                if(cur1.left != null){
+                    if(cur1.right != null){
+                        s1.push(cur1.right);
+                    }
+                    cur1 = cur1.left;
+                } else{
+                    cur1 = cur1.right;
+                }
+            }
+
+            TreeNode cur2 = s2.pop();
+            while(cur2.left != null || cur2.right != null){
+                if(cur2.left != null){
+                    if(cur2.right != null){
+                        s2.push(cur2.right);
+                    }
+                    cur2 = cur2.left;
+                } else{
+                    cur2 = cur2.right;
+                }
+            }
+            if(cur1.val != cur2.val){
+                return false;
+            }
+        }
+        return true;
     }
-
     // Runtime: 5 ms, faster than 13.35% of Java online submissions
     // Depth-First Search
-    public static boolean leafSimilar(TreeNode root1, TreeNode root2) {
+    public boolean leafSimilar_v3(TreeNode root1, TreeNode root2) {
         ArrayList<Integer> res1 = new ArrayList<>();
         ArrayList<Integer> res2 = new ArrayList<>();
         Stack<TreeNode> st1 = new Stack<>();
@@ -60,7 +100,7 @@ public class Easy_LeafSimilarTrees_872 {
         return res1.equals(res2);
     }
 
-    public static boolean leftSimilar_v2(TreeNode root1, TreeNode root2){
+    public static boolean leafSimilar_v2(TreeNode root1, TreeNode root2){
         ArrayList<Integer> res1 = new ArrayList<>();
         ArrayList<Integer> res2 = new ArrayList<>();
         findLeaves(root1, res1);

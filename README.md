@@ -34,7 +34,7 @@ Solutions to classic LeetCode Solutions.
 |442|[Find All Duplicates in Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_FindAllDupsinArray_442.java)|Medium|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_FingMaxConsecutiveOnes_485.java)|Easy|
 |496|[Next Greater Element](https://leetcode.com/problems/next-greater-element-i) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_NextGreaterElement_496.java)|Easy|
-|566|[Reshap The Matrix](hhttps://leetcode.com/problems/reshape-the-matrix) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReshapeMatrix_566.java)|Easy|
+|566|[Reshap The Matrix](https://leetcode.com/problems/reshape-the-matrix) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReshapeMatrix_566.java)|Easy|
 |665|[Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_NonDecreasingArray_665.java)|Easy|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_FlipImage_832.java)|Easy|
 |852|[Peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PeakIndexArray_852.java)|Easy|
@@ -46,3 +46,37 @@ Solutions to classic LeetCode Solutions.
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_PancakeSort_969.java)|Medium|
 |985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_SumofEvenNums_985.java)|Easy|
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_IntervalIntersections_986.java)|Medium|
+
+-----------------
+### Trees
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_BinaryTreeInorderTraversal_94.java)|Medium|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_ValidateBTree_98.java)|Medium|
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_SymmetricTree_101.java)|Easy|
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_MaxBTreeDepth_104.java)|Easy|
+|108|[Convert Sorted Array to BST](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_ConvertSortedArrToBTree_108.java)|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_PathSum_112.java)|Easy|
+|129|[Sum Root-to-Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_SumRootToLeafNums_129.java)|Medium|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_InvertBinaryTree_226.java)|Easy|
+|230|[Kth Smallest Element in A BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_KthSmallestBSTElements_230.java)|Easy|
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_NaryTreeTraversal_429.java)|Easy|
+|513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_FindBottomLeftValue_513.java)|Medium|
+|515|[Find Largest Value In Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_FindLargetsInRow_515.java)|Medium|
+|538|[Convert BST To Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_ConvertBTreeToGreater_538.java)|Easy|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_DiameterIOfBinaryTree_543.java)|Easy|
+|559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_MaxDepthofNaryTree_559.java)|Easy|
+|589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_NaryTreeTraversal_589.java)|Easy|
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_NaryTreePostorderTraversal_590.java)|Easy|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_MergeBinaryTree_617.java)|Easy|
+|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_AvgBinaryTree_637.java)|Easy|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_MaximumBT_654.java)|Medium|
+|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_TrimBTree_669.java)|Easy|
+|700|[Search in a BST](https://leetcode.com/problems/search-in-a-binary-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_SearchBST_700.java)|Easy|
+|701|[Insert into a BST](https://leetcode.com/problems/insert-into-a-binary-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_InsertBST_701.java)|Medium|
+|872|[Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_LeafSimilarTrees_872.java)|Easy|
+|897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_IncreasingOrderBST_897.java)|Easy|
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_RangesumOfBST_938.java)|Medium|
+|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_FlipBinaryTree_951.java)|Medium|
+|965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_isUniValueTree_965.java)|Easy|

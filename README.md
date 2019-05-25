@@ -1,30 +1,48 @@
-# LC-Solutions
-大家好，这个repo是为了分享各位刷题的solution，同时也起到监督打卡的作用。还请各位积极contribute。
-刷题对于找intern/full time的重要性不必多说。第一遍不追求最优解，能够理清解题思路即可，待水平到达一定高度时再追求最优解。
-刚开始刷如何下手？请看这篇[文章](https://www.zhihu.com/question/31092580/answer/500616393)
+LC-Solutions
+========
+Solutions to classic LeetCode Solutions.
+### Arrays
 
-目前的成员有
-* @lmy1108
-* @MAGI003769
-* @Gavinwxy
-* @Chetyh
-* @Forest1995
-* @Chenhui Wang
-
-## How to
-各类算法题已经按照topic创建好了各自的文件夹(thanks **@lmy1108** for his contribution)，大家可以选择：
-* 直接在对应的目录下选择*upload files*直接从本地上传代码；
-* git（关于如何clone一个repo到本地修改，并远程提交请见[这里](https://help.github.com/articles/fork-a-repo/)) 
-**注意**：Please keep the formatting(codes, filenames etc.) correct and clean
-
-## 格式
-语言不限，各位可以选择自己较为熟悉的语言（当然不同语言写起来复杂程度不同，比如Python很好用的list comprehension），重点是学会各类数据结构和常用算法（对于转专业选手:D）和尽快熟悉大厂面试题。  
-* **文件名**：请大家按照*难度_题目_编号_姓名.language*的格式来命名文件。例如 
-> Easy_MergeBinaryTree_617_ASS.java
-（大家如果见到文件名没有名字的代码，那就是repo作者wch的:D）
-* **文件位置**：大家可以选择上传到各个topic，例如ReverseString系列就传到String目录下；也可以按照难度来上传，例如Easy开头的就传到Easy里面。
-* **Issues**：哪些题目自己Google后无法解决可以新开一个issue，大家一起讨论。
-* **版本控制**：大家直接传到master branch就好，或者自己想开一个new branch也可以
-* **其他**: 慢慢完善，比如以后Wiki可以放一些讲解算法的博客/文章，或者大厂面经OA之类
-
-*道阻且长，希望大家通过刷题+运气拿到不错的offer，祝大家好运*
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_TwoSum_1.java)|Easy|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReverseInteger_6.java)|Easy|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RemoveDupsFromArray_26.java)|Medium|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ValidSudoku_36.java)|Medium|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MergeIntervals_56.java)|Medium|
+|66|[Plus One](https://leetcode.com/problems/plus-one) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_plusOne_66.java)|Easy|
+|77|[Combinations](https://leetcode.com/problems/combinations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_Combinations_77.java)|Medium|
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_RemoveDupsFromSortedArrayII_80.java)|Medium|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MergeSortedArray_89.java)|Easy|
+|118|[Pascals Triangle](https://leetcode.com/problems/pascals-triangle) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PascalTriangle_118.java)|Easy|
+|119|[Pascals Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PascalTriangleII_119.java)|Easy|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_BestTimeToSellStock_121.java)|Easy|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_BestTimeToSellStock_122.java)|Easy|
+|134|[Gas Station](https://leetcode.com/problems/gas-station/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_GasStation_134.java)|Medium|
+|136|[Single Number](https://leetcode.com/problems/single-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_SingleNumber_136.java)|Easy|
+|169|[Majority Element](https://leetcode.com/problems/majority-element) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MajorityElement_169.java)|Easy|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RotateArray_189.java)|Easy|
+|209|[Rotate Array](https://leetcode.com/problems/minimum-size-subarray-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumSubarraySize_209.java)|Medium|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ContainsDuplicate_217.java)|Easy|
+|238|[Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ProductofArray_238.java)|Easy|
+|268|[Missing Number](https://leetcode.com/problems/missing-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MissingNumber_268.java)|Easy|
+|283|[Move Zeros](https://leetcode.com/problems/move-zeroes) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MoveZeros_283.java)|Easy|
+|287|[Find Dupliate Number](https://leetcode.com/problems/find-the-duplicate-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_FindDuplicateNumber_287.java)|Medium|
+|349|[Intersect Of Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_IntersectOfArrays_349.java)|Easy|
+|350|[Intersect Of Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_IntersectOfArraysII_350.java)|Easy|
+|414|[Third Max](https://leetcode.com/problems/third-maximum-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_thirdMax_414.java)|Easy|
+|442|[Find All Duplicates in Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_FindAllDupsinArray_442.java)|Medium|
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_FingMaxConsecutiveOnes_485.java)|Easy|
+|496|[Next Greater Element](https://leetcode.com/problems/next-greater-element-i) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_NextGreaterElement_496.java)|Easy|
+|566|[Reshap The Matrix](hhttps://leetcode.com/problems/reshape-the-matrix) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReshapeMatrix_566.java)|Easy|
+|665|[Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_NonDecreasingArray_665.java)|Easy|
+|832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_FlipImage_832.java)|Easy|
+|852|[Peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PeakIndexArray_852.java)|Easy|
+|896|[Peak index in a mountain array](https://leetcode.com/problems/monotonic-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MonotonicArray_896.java)|Easy|
+|905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ArraySortbyParity_905.java)|Easy|
+|922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ArraySortbyParityII_922.java)|Easy|
+|931|[Minimum Falling Path](https://leetcode.com/problems/minimum-falling-path-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumFallingPath_931.java)|Medium|
+|961|[N Repeated Element in Size 2n Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RepeatedElements_961.java)|Easy|
+|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_PancakeSort_969.java)|Medium|
+|985|[Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_SumofEvenNums_985.java)|Easy|
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_IntervalIntersections_986.java)|Medium|

@@ -1,6 +1,6 @@
 LC-Solutions
 ========
-Solutions to classic LeetCode Solutions.
+Solutions to classic LeetCode problems (categorized).
 ### Arrays
 
 | # | Title | Solution | Difficulty |

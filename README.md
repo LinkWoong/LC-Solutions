@@ -9,7 +9,7 @@ Solutions to classic LeetCode problems (categorized).
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReverseInteger_6.java)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RemoveDupsFromArray_26.java)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ValidSudoku_36.java)|Medium|
-|46|[Valid Sudoku](https://leetcode.com/problems/permutations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Medium_Permutations_46.java)|Medium|
+|46|[Permutations](https://leetcode.com/problems/permutations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Medium_Permutations_46.java)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MergeIntervals_56.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_plusOne_66.java)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Easy_ClimbStairs_70.java)|Easy|

@@ -9,9 +9,13 @@ Solutions to classic LeetCode problems (categorized).
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ReverseInteger_6.java)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RemoveDupsFromArray_26.java)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ValidSudoku_36.java)|Medium|
+|46|[Valid Sudoku](https://leetcode.com/problems/permutations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Medium_Permutations_46.java)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MergeIntervals_56.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_plusOne_66.java)|Easy|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Easy_ClimbStairs_70.java)|Easy|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Sorting/Medium_SortColors_75.java)|Medium|
 |77|[Combinations](https://leetcode.com/problems/combinations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_Combinations_77.java)|Medium|
+|78|[Subsets](https://leetcode.com/problems/subsets) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Medium_Subsets_78.java)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_RemoveDupsFromSortedArrayII_80.java)|Medium|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MergeSortedArray_89.java)|Easy|
 |118|[Pascals Triangle](https://leetcode.com/problems/pascals-triangle) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PascalTriangle_118.java)|Easy|
@@ -123,3 +127,51 @@ Solutions to classic LeetCode problems (categorized).
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_UniqEmailAddress_929.java)|Easy|
 |937|[Reorder Log Files](https://leetcode.com/problems/reorder-log-files) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RecordLogFiles_937.java)|Easy|
 |1016|[Binary String with Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_BinaryStringWithSubstr_1016.java)|Medium|
+
+-----------------
+### Linked List
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveNthNodeFromTheEnd_19.java)|Medium|
+|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_SwapNodesinPairs_24.java)|Medium|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RemoveDupsFromSortedList_86.java)|Easy|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RMLinkedList_203.java)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_ReverseLinkedList_206.java)|Easy|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_PalindromeLinkedList_234.java)|Easy|
+|237|[Delete Node In a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_DeleteLinkedListNode_237.java)|Easy|
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_DesignLinkedList_709.java)|Easy|
+|876|[Middle Of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_MiddleofLinkedList_876.java)|Easy|
+
+-----------------
+### Stack & Queue
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Easy_ValidParenthess_20.java)|Easy|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_TopKFreqElements_347.java)|Medium|
+|406|[Queue Reconstruction By Height](https://leetcode.com/problems/queue-reconstruction-by-height) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_QueueReconstructionbyHeight_406.java)|Medium|
+|451|[Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_SortCharacterByFreq_451.java)|Medium|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_DailyTemperatures_739.java)|Medium|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_ValidStackSequence_946.java)|Medium|
+|973|[K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Easy_KClosestToOrigin_973.java)|Medium|
+
+
+-----------------
+### Math
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_SquareRoot_69.java)|Easy|
+|168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColTitle_168.java)|Easy|
+|171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColNum_171.java)|Easy|
+|258|[Add Digits](https://leetcode.com/problems/add-digits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_AddDigits_258.java)|Easy|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_CountBits_338.java)|Medium|
+|419|[Battleships In a Board](https://leetcode.com/problems/battleships-in-a-board) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_CountBattleship_419.java)|Medium|
+|476|[Number Complement](https://leetcode.com/problems/number-complement) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_NumComplement_476.java)|Easy|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_FibonacciNum_509.java)|Easy|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_DistributeCandies_575.java)|Easy|
+|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_BinaryNumWithAlterBits_693.java)|Easy|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_SelfDivideNum_728.java)|Easy|
+|868|[Binary Gap](https://leetcode.com/problems/binary-gap) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_BinaryGap_868.java)|Easy|
+|942|[DI String Match](https://leetcode.com/problems/di-string-match) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_DIStringMatch_942.java)|Easy|

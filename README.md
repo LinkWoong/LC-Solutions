@@ -80,3 +80,46 @@ Solutions to classic LeetCode problems (categorized).
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_RangesumOfBST_938.java)|Medium|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Medium_FlipBinaryTree_951.java)|Medium|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/BinaryTree/Easy_isUniValueTree_965.java)|Easy|
+
+-----------------
+### Strings
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|8|[String to Integer(atoi)](https://leetcode.com/problems/string-to-integer-atoi) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_StringtoInteger_8.java)|Medium|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RomanToInteger_13.java)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LongestCommonPrefix_14.java)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ImplStrstr_28.java)|Easy|
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LengthofLastWord_58.java)|Easy|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Hard_MinimumWindowSubstr_76.java)|Hard|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ValidPalindrome_125.java)|Easy|
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_EvaluateReversePolishNotation_150.java)|Medium|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ValidAnagram_242.java)|Easy|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ReverseString_344.java)|Easy|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RansomNote_383.java)|Easy|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_FirstUniqCharinString_387.java)|Easy|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_FindDifference_389.java)|Easy|
+|438|[Find all Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_FindAllAnagrams_438.java)|Easy|
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_DetectCapital_520.java)|Easy|
+|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LongestUncommonSubstrI_521.java)|Easy|
+|537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_ComplexMultiply_537.java)|Medium|
+|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ReverseString_557.java)|Easy|
+|609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_FindDupFiles_609.java)|Medium|
+|657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_JudgingCircle_657.java)|Easy|
+|709|[To Lower Case](https://leetcode.com/problems/to-lower-case) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ToLowerCase_709.java)|Easy|
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ShortestCompleteWord_748.java)|Easy|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_PartitionLabels_763.java)|Medium|
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_JewelsAndStones_771.java)|Easy|
+|784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LettercasePermutation_784.java)|Easy|
+|791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_CustomSortString_791.java)|Medium|
+|796|[Rotate String](https://leetcode.com/problems/rotate-string) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RotateString_796.java)|Easy|
+|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_UniqueMooreCode_804.java)|Easy|
+|821|[Shortest Distance To a Character](https://leetcode.com/problems/shortest-distance-to-a-character) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_DistanceToChar_821.java)|Easy|
+|824|[Goat Latin](https://leetcode.com/problems/goat-latin) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_GoatLatin_824.java)|Easy|
+|884|[Uncommon Words From Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_UncommonWords_884.java)|Easy|
+|890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_FindPattern_890.java)|Medium|
+|893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_SpecialEquiString_893.java)|Easy|
+|917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ReverseOnlyLetters_917.java)|Easy|
+|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_UniqEmailAddress_929.java)|Easy|
+|937|[Reorder Log Files](https://leetcode.com/problems/reorder-log-files) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RecordLogFiles_937.java)|Easy|
+|1016|[Binary String with Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_BinaryStringWithSubstr_1016.java)|Medium|

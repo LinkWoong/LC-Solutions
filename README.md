@@ -26,7 +26,7 @@ Solutions to classic LeetCode problems (categorized).
 |136|[Single Number](https://leetcode.com/problems/single-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_SingleNumber_136.java)|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MajorityElement_169.java)|Easy|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RotateArray_189.java)|Easy|
-|209|[Rotate Array](https://leetcode.com/problems/minimum-size-subarray-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumSubarraySize_209.java)|Medium|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumSubarraySize_209.java)|Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ContainsDuplicate_217.java)|Easy|
 |238|[Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ProductofArray_238.java)|Easy|
 |268|[Missing Number](https://leetcode.com/problems/missing-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MissingNumber_268.java)|Easy|

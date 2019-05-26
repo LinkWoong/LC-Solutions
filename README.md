@@ -42,7 +42,7 @@ Solutions to classic LeetCode problems (categorized).
 |665|[Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_NonDecreasingArray_665.java)|Easy|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_FlipImage_832.java)|Easy|
 |852|[Peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_PeakIndexArray_852.java)|Easy|
-|896|[Peak index in a mountain array](https://leetcode.com/problems/monotonic-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MonotonicArray_896.java)|Easy|
+|896|[Monotonic Array](https://leetcode.com/problems/monotonic-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MonotonicArray_896.java)|Easy|
 |905|[Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ArraySortbyParity_905.java)|Easy|
 |922|[Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ArraySortbyParityII_922.java)|Easy|
 |931|[Minimum Falling Path](https://leetcode.com/problems/minimum-falling-path-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumFallingPath_931.java)|Medium|

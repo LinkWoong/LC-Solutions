@@ -139,7 +139,11 @@ Solutions to classic LeetCode problems (categorized).
 |---| ----- | -------- | ---------- |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveNthNodeFromTheEnd_19.java)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_SwapNodesinPairs_24.java)|Medium|
+|61|[Rotate List](https://leetcode.com/problems/rotate-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RotateList_61.java)|Medium|
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveDupsFromSortedListII_82.java)|Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RemoveDupsFromSortedList_86.java)|Easy|
+|86|[Partition List](https://leetcode.com/problems/partition-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_PartitionList_86.java)|Medium|
+|92|[Reverse List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReverseListII_92.java)|Medium|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RMLinkedList_203.java)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_ReverseLinkedList_206.java)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_PalindromeLinkedList_234.java)|Easy|
@@ -167,6 +171,7 @@ Solutions to classic LeetCode problems (categorized).
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_SquareRoot_69.java)|Easy|
+|89|[Sqrt(x)](https://leetcode.com/problems/gray-code) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_GrayCode_89.java)|Medium|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColTitle_168.java)|Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColNum_171.java)|Easy|
 |258|[Add Digits](https://leetcode.com/problems/add-digits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_AddDigits_258.java)|Easy|

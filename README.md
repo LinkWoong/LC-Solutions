@@ -13,6 +13,7 @@ Solutions to classic LeetCode problems (categorized).
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MergeIntervals_56.java)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_plusOne_66.java)|Easy|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Easy_ClimbStairs_70.java)|Easy|
+|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_SetMatrixZeros_73.java)|Medium|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Sorting/Medium_SortColors_75.java)|Medium|
 |77|[Combinations](https://leetcode.com/problems/combinations) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_Combinations_77.java)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Recursive/Medium_Subsets_78.java)|Medium|
@@ -28,6 +29,7 @@ Solutions to classic LeetCode problems (categorized).
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_RotateArray_189.java)|Easy|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MinimumSubarraySize_209.java)|Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_ContainsDuplicate_217.java)|Easy|
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_MajorityElementII_229.java)|Medium|
 |238|[Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Medium_ProductofArray_238.java)|Easy|
 |268|[Missing Number](https://leetcode.com/problems/missing-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MissingNumber_268.java)|Easy|
 |283|[Move Zeros](https://leetcode.com/problems/move-zeroes) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Array/Easy_MoveZeros_283.java)|Easy|
@@ -94,6 +96,7 @@ Solutions to classic LeetCode problems (categorized).
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RomanToInteger_13.java)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LongestCommonPrefix_14.java)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ImplStrstr_28.java)|Easy|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_GroupAnagrams_49.java)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_LengthofLastWord_58.java)|Easy|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Hard_MinimumWindowSubstr_76.java)|Hard|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ValidPalindrome_125.java)|Easy|
@@ -126,6 +129,7 @@ Solutions to classic LeetCode problems (categorized).
 |917|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_ReverseOnlyLetters_917.java)|Easy|
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_UniqEmailAddress_929.java)|Easy|
 |937|[Reorder Log Files](https://leetcode.com/problems/reorder-log-files) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_RecordLogFiles_937.java)|Easy|
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Easy_FindCommonCharacters_1002.java)|Easy|
 |1016|[Binary String with Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/String/Medium_BinaryStringWithSubstr_1016.java)|Medium|
 
 -----------------
@@ -155,7 +159,7 @@ Solutions to classic LeetCode problems (categorized).
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_DailyTemperatures_739.java)|Medium|
 |946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Medium_ValidStackSequence_946.java)|Medium|
 |973|[K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Easy_KClosestToOrigin_973.java)|Medium|
-
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Stack%26Queue/Easy_RemoveAllAdjacentDupsInString_1047.java)|Easy|
 
 -----------------
 ### Math

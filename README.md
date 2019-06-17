@@ -143,7 +143,7 @@ Solutions to classic LeetCode problems (categorized).
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveDupsFromSortedListII_82.java)|Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RemoveDupsFromSortedList_86.java)|Easy|
 |86|[Partition List](https://leetcode.com/problems/partition-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_PartitionList_86.java)|Medium|
-|92|[Reverse List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReverseListII_92.java)|Medium|
+|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReverseListII_92.java)|Medium|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RMLinkedList_203.java)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_ReverseLinkedList_206.java)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_PalindromeLinkedList_234.java)|Easy|

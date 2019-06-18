@@ -1,6 +1,8 @@
 LC-Solutions
 ========
-Solutions to classic LeetCode problems (categorized).
+These are my solutions to LeetCode problems implemented in Java. Targeting at landing an internship as an SDE in summer, 2019.
+
+Process: **Solved** **231/1092**.
 ### Arrays
 
 | # | Title | Solution | Difficulty |

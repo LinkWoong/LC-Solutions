@@ -2,7 +2,7 @@ LC-Solutions
 ========
 These are my solutions to LeetCode problems. Now I'm targeting at landing an internship as an SDE in summer, 2020.
 
-Progress: **Solved** **231/1092**.
+Progress: **Solved** **241/1092**.
 ### Arrays
 
 | # | Title | Solution | Difficulty |
@@ -146,6 +146,9 @@ Progress: **Solved** **231/1092**.
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RemoveDupsFromSortedList_86.java)|Easy|
 |86|[Partition List](https://leetcode.com/problems/partition-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_PartitionList_86.java)|Medium|
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReverseListII_92.java)|Medium|
+|141|[LinkedList Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_LinkedListCycle_141.java)|Easy|
+|142|[LinkedList Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_LinkedListCycleII_142.java)|Medium|
+|143|[Reorder List](https://leetcode.com/problems/reorder-list/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReorderList_143.java)|Medium|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RMLinkedList_203.java)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_ReverseLinkedList_206.java)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_PalindromeLinkedList_234.java)|Easy|
@@ -176,8 +179,10 @@ Progress: **Solved** **231/1092**.
 |89|[Sqrt(x)](https://leetcode.com/problems/gray-code) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_GrayCode_89.java)|Medium|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColTitle_168.java)|Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColNum_171.java)|Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_HappyNumber_202.java)|Easy|
 |258|[Add Digits](https://leetcode.com/problems/add-digits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_AddDigits_258.java)|Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_CountBits_338.java)|Medium|
+|380|[Insert Delete getRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_InsertDeleteRandom_380.java)|Medium|
 |419|[Battleships In a Board](https://leetcode.com/problems/battleships-in-a-board) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_CountBattleship_419.java)|Medium|
 |476|[Number Complement](https://leetcode.com/problems/number-complement) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_NumComplement_476.java)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_FibonacciNum_509.java)|Easy|

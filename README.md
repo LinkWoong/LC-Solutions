@@ -176,7 +176,7 @@ Progress: **Solved** **241/1092**.
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_SquareRoot_69.java)|Easy|
-|89|[Sqrt(x)](https://leetcode.com/problems/gray-code) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_GrayCode_89.java)|Medium|
+|89|[Gray Code](https://leetcode.com/problems/gray-code) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Medium_GrayCode_89.java)|Medium|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColTitle_168.java)|Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_ExcelSheetColNum_171.java)|Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/Math/Easy_HappyNumber_202.java)|Easy|

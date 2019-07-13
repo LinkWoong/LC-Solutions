@@ -2,7 +2,7 @@ LC-Solutions
 ========
 These are my solutions to LeetCode problems. Now I'm targeting at landing an internship as an SDE in summer, 2020.
 
-Progress: **Solved** **241/1092**.
+Progress: **Solved** **255/1117**.
 ### Arrays
 
 | # | Title | Solution | Difficulty |
@@ -140,6 +140,7 @@ Progress: **Solved** **241/1092**.
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveNthNodeFromTheEnd_19.java)|Medium|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_MergeTwoSortedLists_21.java)|Easy|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_SwapNodesinPairs_24.java)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RotateList_61.java)|Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_RemoveDupsFromSortedListII_82.java)|Medium|
@@ -149,10 +150,13 @@ Progress: **Solved** **241/1092**.
 |141|[LinkedList Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_LinkedListCycle_141.java)|Easy|
 |142|[LinkedList Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_LinkedListCycleII_142.java)|Medium|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_ReorderList_143.java)|Medium|
+|147|[Insertion Sort Lists](https://leetcode.com/problems/insertion-sort-list/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_InsertionSortList_147.java)|Medium|
+|160|[Insertion of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_IntersectionOfTwoLists_160.java)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_RMLinkedList_203.java)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_ReverseLinkedList_206.java)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_PalindromeLinkedList_234.java)|Easy|
 |237|[Delete Node In a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_DeleteLinkedListNode_237.java)|Easy|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Medium_OddEvenLinkedList_328.java)|Medium|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_DesignLinkedList_709.java)|Easy|
 |876|[Middle Of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [Java](https://github.com/LinkWoong/LC-Solutions/blob/master/LinkedList/Easy_MiddleofLinkedList_876.java)|Easy|
 

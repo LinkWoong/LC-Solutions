@@ -2,7 +2,7 @@ LC-Solutions
 ========
 These are my solutions to LeetCode problems. Now I'm targeting at landing an internship as an SDE in summer, 2020.
 
-Progress: **Solved** **285/1117**.
+Progress: **Solved** **295/1147**.
 ### Arrays
 
 | # | Title | Solution | Difficulty |

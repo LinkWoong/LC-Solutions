@@ -1,8 +1,8 @@
 LC-Solutions
 ========
-These are my solutions to LeetCode problems. Now I'm targeting at landing an internship as an SDE in summer, 2020.
+These are my solutions to LeetCode problems.
 
-Progress: **Solved** **338/1174**.
+Progress: **Solved** **485/1397**.
 ### Arrays
 
 | # | Title | Solution | Difficulty |
